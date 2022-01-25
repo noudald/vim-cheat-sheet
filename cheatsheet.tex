@@ -1,11 +1,12 @@
 \documentclass[8pt]{extarticle}
 
 \usepackage[a4paper, landscape, margin=1cm]{geometry}
-\usepackage{lipsum}
 \usepackage{multicol}
 \usepackage{titlesec}
 
 \pagenumbering{gobble}
+
+\newcommand{\Ell}{\boldmath$\mathrm{\ell}$}
 
 \begin{document}
 \begin{multicols}{3}
@@ -25,34 +26,67 @@
         \textbf{:wqa}                   & Write and quit all files
     \end{tabular}
 
-    \subsection*{Basic Editing}
-    \vskip-5pt \titlerule[0.8pt]
-
     \subsection*{Navigation and Cursor Movement}
-    \vskip-5pt \titlerule[0.8pt]
+    \vskip-5pt \titlerule[0.8pt] \vskip 5pt
+
+    \begin{tabular}{p{0.1\textwidth} p{0.2\textwidth}}
+        \textbf{h, j, k,} \Ell          & Move cursor left, down, up, or right \\
+        \textbf{H, M, L}                & Move to top, middle, bottom of screen \\
+        \textbf{w, W}                   & Jump to start of word (cap: including punctuation) \\
+        \textbf{e, E}                   & Jump to end of word (cap: including punctuation) \\
+        \textbf{b, B}                   & Jump backwards to start of word (cap: including punctuation) \\
+        \textbf{0}                      & Jump to start of line \\
+        \textbf{\^}                     & Jump to first non-black character of line \\
+        \textbf{\$}                     & Jump to end of line \\
+    \end{tabular}
+
+    \subsection*{Basic Editing}
+    \vskip-5pt \titlerule[0.8pt] \vskip 5pt
+
+    \begin{tabular}{p{0.1\textwidth} p{0.2\textwidth}}
+    \end{tabular}
 
     \subsection*{Search and Replace}
-    \vskip-5pt \titlerule[0.8pt]
+    \vskip-5pt \titlerule[0.8pt] \vskip 5pt
+
+    \begin{tabular}{p{0.1\textwidth} p{0.2\textwidth}}
+    \end{tabular}
 
     \subsection*{Marking}
-    \vskip-5pt \titlerule[0.8pt]
+    \vskip-5pt \titlerule[0.8pt] \vskip 5pt
+
+    \begin{tabular}{p{0.1\textwidth} p{0.2\textwidth}}
+    \end{tabular}
 
     \subsection*{Rich Language Editing}
-    \vskip-5pt \titlerule[0.8pt]
+    \vskip-5pt \titlerule[0.8pt] \vskip 5pt
+
+    \begin{tabular}{p{0.1\textwidth} p{0.2\textwidth}}
+    \end{tabular}
 
     \subsection*{Macros}
-    \vskip-5pt \titlerule[0.8pt]
+    \vskip-5pt \titlerule[0.8pt] \vskip 5pt
+
+    \begin{tabular}{p{0.1\textwidth} p{0.2\textwidth}}
+    \end{tabular}
 
     \subsection*{Multiple Windows}
-    \vskip-5pt \titlerule[0.8pt]
+    \vskip-5pt \titlerule[0.8pt] \vskip 5pt
+
+    \begin{tabular}{p{0.1\textwidth} p{0.2\textwidth}}
+    \end{tabular}
 
     \subsection*{Diff}
-    \vskip-5pt \titlerule[0.8pt]
+    \vskip-5pt \titlerule[0.8pt] \vskip 5pt
+
+    \begin{tabular}{p{0.1\textwidth} p{0.2\textwidth}}
+    \end{tabular}
 
     \subsection*{Spell Checker}
-    \vskip-5pt \titlerule[0.8pt]
+    \vskip-5pt \titlerule[0.8pt] \vskip 5pt
 
+    \begin{tabular}{p{0.1\textwidth} p{0.2\textwidth}}
+    \end{tabular}
 
-    \lipsum
 \end{multicols}
 \end{document}
