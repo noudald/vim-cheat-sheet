@@ -1,0 +1,58 @@
+\documentclass[8pt]{extarticle}
+
+\usepackage[a4paper, landscape, margin=1cm]{geometry}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{titlesec}
+
+\pagenumbering{gobble}
+
+\begin{document}
+\begin{multicols}{3}
+    \section*{Vim Cheat Sheet}
+
+    Keyboard shortcuts for Vim
+
+    \subsection*{General}
+    \vskip-5pt \titlerule[0.8pt] \vskip 5pt
+
+    \begin{tabular}{p{0.1\textwidth} p{0.2\textwidth}}
+        \textbf{:h[elp] keyword}        & Open documentation for keyword \\
+        \textbf{:e[dit] file}           & Open file \\
+        \textbf{:w[rite] [file]}        & Save file [as] \\
+        \textbf{:q[uit]}                & Close current pane \\
+        \textbf{:q[uit]!}               & Close and throw away unsaved changes \\
+        \textbf{:wqa}                   & Write and quit all files
+    \end{tabular}
+
+    \subsection*{Basic Editing}
+    \vskip-5pt \titlerule[0.8pt]
+
+    \subsection*{Navigation and Cursor Movement}
+    \vskip-5pt \titlerule[0.8pt]
+
+    \subsection*{Search and Replace}
+    \vskip-5pt \titlerule[0.8pt]
+
+    \subsection*{Marking}
+    \vskip-5pt \titlerule[0.8pt]
+
+    \subsection*{Rich Language Editing}
+    \vskip-5pt \titlerule[0.8pt]
+
+    \subsection*{Macros}
+    \vskip-5pt \titlerule[0.8pt]
+
+    \subsection*{Multiple Windows}
+    \vskip-5pt \titlerule[0.8pt]
+
+    \subsection*{Diff}
+    \vskip-5pt \titlerule[0.8pt]
+
+    \subsection*{Spell Checker}
+    \vskip-5pt \titlerule[0.8pt]
+
+
+    \lipsum
+\end{multicols}
+\end{document}
